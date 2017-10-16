@@ -41,4 +41,7 @@ config :mini, Mini.Repo,
   hostname: "localhost",
   pool_size: 10
 
+config :mini, Mini.Mailer,
+  adapter: Bamboo.LocalAdapter
+
 import_config "dev.secret.exs"

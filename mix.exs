@@ -30,7 +30,8 @@ defmodule Mini.Mixfile do
         :comeonin,
         :ueberauth,
         :ueberauth_identity,
-        :faker
+        :faker,
+        :bamboo
       ]]
   end
 
@@ -56,7 +57,8 @@ defmodule Mini.Mixfile do
       {:ueberauth, "~> 0.2"},
       {:ueberauth_identity, "~> 0.2"},
       {:guardian, "~> 0.10"},
-      {:faker, "~> 0.7"}
+      {:faker, "~> 0.7"},
+      {:bamboo, "~> 0.7"}
     ]
   end
 
